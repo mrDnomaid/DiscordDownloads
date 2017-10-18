@@ -2,138 +2,169 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta name="robots" content="index, follow">
-    <meta name="description" content="Unofficial site with easily-accessible download links to most Discord versions on all available platforms.">
-    <meta name="keywords" content="dnomaid, mrdnomaid, discord, discordapp, download, beta, ptb, canary, development, version, edition, windows, mac, linux, ubuntu, debian">
-    <meta name="theme-color" content="#000">
-    <title>Discord Downloads</title>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto+Slab" rel="stylesheet">
-    <link href="bulma.css" rel="stylesheet">
-    <style media="screen">
-        * {
-            padding: 0;
-            margin: 0;
-        }
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Unofficial site with easily-accessible download links to most Discord versions on all available platforms.">
+  <meta property="og:description" content="Unofficial site with easily-accessible download links to most Discord versions on all available platforms.">
+  <meta name="keywords" content="dnomaid, mrdnomaid, discord, discordapp, download, beta, ptb, canary, development, version, edition, windows, mac, linux, ubuntu, debian">
+  <meta name="theme-color" content="#eeeeee">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto+Slab" rel="stylesheet">
+  <link href="bulma.css" rel="stylesheet">
+  <title>Discord Downloads</title>
+  <style media="screen">
+    * {
+      padding: 0;
+      margin: 0;
+    }
 
-        body {
-            max-width: 50em;
-            margin: 0 auto;
-            text-align: center;
-            line-height: 1.6em;
-            font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            background-color: #eee;
-            color: #555;
-        }
+    body {
+      max-width: 50em;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 1.6em;
+      font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #eee;
+      color: #555;
+    }
 
-        h1 {
-            margin-top: 1em;
-            margin-bottom: 1em;
-        }
+    h1 {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: 'Roboto Slab', 'Georgia', serif;
-        }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Roboto Slab', 'Georgia', serif;
+    }
 
-        h2:not(:first-of-type) {
-            margin-top: 2em;
-        }
+    h2:not(:first-of-type) {
+      margin-top: 2em;
+    }
 
-        a {
-            display: inline-block;
-            color: #444;
-        }
+    a {
+      display: inline-block;
+      color: #444;
+    }
 
-        a:hover {
-            color: #eee;
-            background-color: #444;
-            transform: scale(1.1);
-        }
+    a:hover {
+      color: #eee;
+      background-color: #444;
+      transform: scale(1.1);
+    }
 
-        a:active {
-            transform: scale(0.9);
-        }
+    a:active {
+      transform: scale(0.9);
+    }
 
-        h3#footer {
-            margin-top: 2em;
-        }
+    h3#footer {
+      margin-top: 2em;
+    }
 
-        .fa {
-            transition: all 0.5s;
-        }
+    .fa {
+      transition: all 0.5s;
+    }
 
-        .fa:hover {
-            transform: rotate(360deg);
-        }
+    .fa-apple:hover {
+      color: #333;
+    }
 
-        div#mobile {
-          margin-top: 2em;
-        }
-    </style>
+    .fa-android:hover {
+      color: #a4c639;
+    }
+
+    .fa-linux:hover {
+      color: #dd4814;
+    }
+
+    .fa-windows:hover {
+      color: #0078d7;
+    }
+
+    .fa:hover {
+      transform: rotate(360deg);
+    }
+
+    div#mobile {
+      margin-top: 2em;
+    }
+
+    img {
+      filter: brightness(0.2);
+      height: 2em;
+    }
+
+    h1 a {
+      padding: 8px;
+    }
+
+    h1 a:hover img {
+      filter: brightness(1);
+    }
+  </style>
 </head>
 
 <body>
-    <h1 style="color: #333;">Discord Downloads</h1>
+  <h1><a href="https://discordapp.com"><img src="https://discordapp.com/assets/4f004ac9be168ac6ee18fc442a52ab53.svg"></a></h1>
+  <h1 style="color: #333;">Discord Downloads</h1>
 
-    <div class="columns" id="desktop">
+  <div class="columns" id="desktop">
 
-        <div class="column">
-            <h2><i class="fa fa-windows fa-fw"></i> Windows</h2>
-            <h6>7 or newer (.exe)</h6>
-            <p><a href="https://discordapp.com/api/download?platform=win">Stable</a></p>
-            <p><a href="https://discordapp.com/api/download/ptb?platform=win">PTB</a></p>
-            <p><a href="https://discordapp.com/api/download/canary?platform=win">Canary</a></p>
-            <p><a href="https://discordapp.com/api/download/development?platform=win">Development</a></p>
-        </div>
-
-        <div class="column">
-            <h2><i class="fa fa-linux fa-fw"></i> Linux </h2>
-            <h6>Ubuntu and friends (.deb)</h6>
-            <p><a href="https://discordapp.com/api/download?platform=linux">Stable</a></p>
-            <p><a href="https://discordapp.com/api/download/ptb?platform=linux">PTB</a></p>
-            <p><a href="https://discordapp.com/api/download/canary?platform=linux">Canary</a></p>
-            <p><a href="https://discordapp.com/api/download/development?platform=linux">Development</a></p>
-        </div>
-
-        <div class="column">
-            <h2><i class="fa fa-apple fa-fw"></i> macOS</h2>
-            <h6>??? or newer (.dmg)</h6>
-            <p><a href="https://discordapp.com/api/download?platform=osx">Stable</a></p>
-            <p><a href="https://discordapp.com/api/download/ptb?platform=osx">PTB</a></p>
-            <p><a href="https://discordapp.com/api/download/canary?platform=osx">Canary</a></p>
-            <p><a href="https://discordapp.com/api/download/development?platform=osx">Development</a></p>
-        </div>
-
+    <div class="column">
+      <h2><i class="fa fa-windows fa-fw"></i> Windows</h2>
+      <h6>7 or newer (.exe)</h6>
+      <p><a href="https://discordapp.com/api/download?platform=win">Stable</a></p>
+      <p><a href="https://discordapp.com/api/download/ptb?platform=win">PTB</a></p>
+      <p><a href="https://discordapp.com/api/download/canary?platform=win">Canary</a></p>
+      <p><a href="https://discordapp.com/api/download/development?platform=win">Development</a></p>
     </div>
 
-    <div class="columns" id="mobile">
-
-        <div class="column">
-            <h2><i class="fa fa-android fa-fw"></i> Android</h2>
-            <h6>4.1 or newer</h6>
-            <p><a href="https://play.google.com/store/apps/details?id=com.discord">Stable</a></p>
-            <p><a href="https://play.google.com/apps/testing/com.discord">Beta</a></p>
-            <p><a href="https://www.apkmirror.com/apk/hammer-chisel-inc/discord-chat-for-gamers/" onclick="alert('Warning: APK Mirror is not endorsed or affiliated with the Discord team. Previous versions may stop working at any time or contain bugs.')">APKMirror</a></p>
-        </div>
-
-        <div class="column">
-            <h2><i class="fa fa-apple fa-fw"></i> iOS</h2>
-            <h6>iOS 8.1 or newer</h6>
-            <p><a href="https://itunes.apple.com/us/app/discord-chat-for-games/id985746746">Stable</a></p>
-        </div>
-
+    <div class="column">
+      <h2><i class="fa fa-linux fa-fw"></i> Linux </h2>
+      <h6>Ubuntu and friends (.deb)</h6>
+      <p><a href="https://discordapp.com/api/download?platform=linux">Stable</a></p>
+      <p><a href="https://discordapp.com/api/download/ptb?platform=linux">PTB</a></p>
+      <p><a href="https://discordapp.com/api/download/canary?platform=linux">Canary</a></p>
+      <p><a href="https://discordapp.com/api/download/development?platform=linux">Development</a></p>
     </div>
 
-    <h3 id="footer">A <a href="https://dnomaid.co.uk">dnomaid</a> thing</h3>
-    <h6>This is an unofficial site, not endorsed by the Discord team.</h6>
-    <h6>"Inspired" by <a href="http://discord.thelmgn.com">theLMGN</a>'s version</h6>
+    <div class="column">
+      <h2><i class="fa fa-apple fa-fw"></i> macOS</h2>
+      <h6>??? or newer (.dmg)</h6>
+      <p><a href="https://discordapp.com/api/download?platform=osx">Stable</a></p>
+      <p><a href="https://discordapp.com/api/download/ptb?platform=osx">PTB</a></p>
+      <p><a href="https://discordapp.com/api/download/canary?platform=osx">Canary</a></p>
+      <p><a href="https://discordapp.com/api/download/development?platform=osx">Development</a></p>
+    </div>
+
+  </div>
+
+  <div class="columns" id="mobile">
+
+    <div class="column">
+      <h2><i class="fa fa-android fa-fw"></i> Android</h2>
+      <h6>4.1 or newer</h6>
+      <p><a href="https://play.google.com/store/apps/details?id=com.discord">Stable</a></p>
+      <p><a href="https://play.google.com/apps/testing/com.discord">Beta</a></p>
+      <p><a href="https://www.apkmirror.com/apk/hammer-chisel-inc/discord-chat-for-gamers/" onclick="alert('Warning: APK Mirror is not endorsed or affiliated with the Discord team. Previous versions may stop working at any time or contain bugs.')">APKMirror</a></p>
+    </div>
+
+    <div class="column">
+      <h2><i class="fa fa-apple fa-fw"></i> iOS</h2>
+      <h6>iOS 8.1 or newer</h6>
+      <p><a href="https://itunes.apple.com/us/app/discord-chat-for-games/id985746746">Stable</a></p>
+    </div>
+
+  </div>
+
+  <h3 id="footer">A <a href="https://dnomaid.co.uk">dnomaid</a> thing</h3>
+  <h6>This is an unofficial site, not endorsed by the Discord team.</h6>
+  <h6>"Inspired" by <a href="http://discord.thelmgn.com">theLMGN's version</a></h6>
 </body>
 
 </html>
